@@ -1,6 +1,8 @@
-# Star Wars Python Exercise (Retrieve Data from API)
+# Technical Exercises
 
-## Overview 
+## Python Exercise (Retrieve Data from API)
+
+### Overview 
 
 This project is created to fulfill the following requirements:
 
@@ -14,18 +16,18 @@ This project is created to fulfill the following requirements:
 
 **Important note: If you don't see the output file after running the script, check if you're looking in the right directory. The output file will be created in the directory where the script was run.**
 
-## Features 
+### Features 
 
     Retrieves female Star Wars characters from ALL pages in the https://swapi.dev/api/people API.
     Includes a header row displaying the column names.
 
-## Requirements
+### Requirements
 
     Python version 3.5 and later
     Install `requests` library
 
 
-## Output Results
+### Output Results
 
 **`Row_Number, Name, ID, Eye_Color`**  
 `1, Leia Organa, 5, brown`  
@@ -47,3 +49,33 @@ This project is created to fulfill the following requirements:
 `17, Sly Moore, 82, white`  
 
 
+## SQL Exercises 
+
+**SQL Exercise Answers**
+
+Write the SQL that displays the total number of books published by each publisher.
+
+        SELECT p.publisher_name, COUNT(b.book_id) as total_published_books  
+        FROM publisher p   
+        JOIN book b   
+        ON p.publisher_id = b.publisher_id  
+        GROUP BY p.publisher_name;  
+ 
+Write the SQL that displays the books that have more than one author. 
+
+        SELECT b.title as book_title, COUNT(ba.author_id) as author_count  
+        FROM book b   
+        JOIN book_author ba   
+            ON b.book_id = ba.book_id   
+        GROUP BY b.book_id, b.title  
+        HAVING COUNT (ba.author_id) > 1;  
+
+Write the SQL that displays a list of authors that have not written any award-winning books.
+
+        SELECT a.first_name, a.last_name  
+        FROM author a  
+        JOIN book_author ba   
+            ON a.author_id = ba.author_id   
+        LEFT JOIN book_award bw   
+            ON ba.book_id = bw.book_id   
+        WHERE bw.award_id IS NULL;  
