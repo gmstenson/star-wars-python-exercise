@@ -1,6 +1,12 @@
 # Technical Exercises
 
-## Python Exercise (Retrieve Data from API)
+## Table of Contents
+
+- [Python Exercise](#python-exercise)
+- [SQL Exercise](#sql-exercise)
+
+
+## Python Exercise
 
 ### Overview 
 
@@ -49,7 +55,9 @@ This project is created to fulfill the following requirements:
 `17, Sly Moore, 82, white`  
 
 
-## SQL Exercises 
+------------------------------------------------------------------------------------
+
+## SQL Exercise 
 
 **SQL Exercise Answers**
 
