@@ -26,21 +26,23 @@ This project is created to fulfill the following requirements:
 
 ## Output Results
 
-**`Row_Number, Name, ID, Eye_Color`**
-`1, Leia Organa, 5, brown`
-`2, Beru Whitesun lars, 7, blue`
-`3, Mon Mothma, 28, blue`
-`4, Padmé Amidala, 35, brown`
-`5, Shmi Skywalker, 43, brown`
-`6, Ayla Secura, 46, hazel`
-`7, Adi Gallia, 55, blue`
-`8, Cordé, 61, brown`
-`9, Luminara Unduli, 64, blue`
-`10, Barriss Offee, 65, blue`
-`11, Dormé, 66, brown`
-`12, Zam Wesell, 70, yellow`
-`13, Taun We, 73, black`
-`14, Jocasta Nu, 74, blue`
-`15, R4-P17, 75, red, blue`
-`16, Shaak Ti, 78, black`
-`17, Sly Moore, 82, white`
+**`Row_Number, Name, ID, Eye_Color`**  
+`1, Leia Organa, 5, brown`  
+`2, Beru Whitesun lars, 7, blue`  
+`3, Mon Mothma, 28, blue`  
+`4, Padmé Amidala, 35, brown`  
+`5, Shmi Skywalker, 43, brown`  
+`6, Ayla Secura, 46, hazel`  
+`7, Adi Gallia, 55, blue`  
+`8, Cordé, 61, brown`  
+`9, Luminara Unduli, 64, blue`  
+`10, Barriss Offee, 65, blue`  
+`11, Dormé, 66, brown`  
+`12, Zam Wesell, 70, yellow`  
+`13, Taun We, 73, black`  
+`14, Jocasta Nu, 74, blue`  
+`15, R4-P17, 75, red, blue`  
+`16, Shaak Ti, 78, black`  
+`17, Sly Moore, 82, white`  
+
+
