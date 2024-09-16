@@ -12,6 +12,7 @@ This project is created to fulfill the following requirements:
     2. Output a list of the female characters to a text file. Each row in the file should include a row number as well as
     a character's name, ID number, and eye color.
 
+**Important note: If you don't see the output file after running the script, check if you're looking in the right directory. The output file will be created in the directory where the script was run.**
 
 ## Features 
 
