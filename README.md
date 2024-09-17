@@ -22,6 +22,11 @@ This project is created to fulfill the following requirements:
 
 **Important note: If you don't see the output file after running the script, check if you're looking in the right directory. The output file will be created in the directory where the script was run.**
 
+### Files
+
+    Python script: main.py 
+    Output: star_wars_female_characters.txt
+
 ### Features 
 
     Retrieves female Star Wars characters from ALL pages in the https://swapi.dev/api/people API.
@@ -58,6 +63,10 @@ This project is created to fulfill the following requirements:
 ------------------------------------------------------------------------------------
 
 ## SQL Exercise 
+
+### Files 
+
+    exercise.sql
 
 **SQL Exercise Answers**
 
