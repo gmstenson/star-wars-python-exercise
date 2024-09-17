@@ -13,7 +13,7 @@ FROM book b
 JOIN book_author ba   
     ON b.book_id = ba.book_id   
 GROUP BY b.book_id, b.title  
-HAVING COUNT (ba.author_id) > 1;  
+HAVING COUNT(ba.author_id) > 1;  
 
 -- Write the SQL that displays a list of authors that have not written any award-winning books.
 
