@@ -3,7 +3,7 @@
 SELECT p.publisher_name, COUNT(b.book_id) as total_published_books  
 FROM publisher p   
 JOIN book b   
-ON p.publisher_id = b.publisher_id  
+    ON p.publisher_id = b.publisher_id  
 GROUP BY p.publisher_name;  
  
 -- Write the SQL that displays the books that have more than one author. 
